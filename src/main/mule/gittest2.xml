@@ -8,7 +8,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 		<http:listener-connection host="0.0.0.0" port="8081" />
 	</http:listener-config>
 	<flow name="gittest2Flow" doc:id="2ea11b1d-b837-45ff-9fde-2784eb28a96e" >
-		<http:listener doc:name="Listener" doc:id="b20f5254-9798-4cde-9d5e-aee370ab2539" config-ref="HTTP_Listener_config2" path="/test2"/>
+		<http:listener doc:name="Listener" doc:id="b20f5254-9798-4cde-9d5e-aee370ab2539" config-ref="HTTP_Listener_config2" path="/api/test_2"/>
 		<logger level="INFO" doc:name="Ciao" doc:id="957f7cea-8824-4ab4-89d5-b76b9d484a79" message="Ciao"/>
 	</flow>
 </mule>
