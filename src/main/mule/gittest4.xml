@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns="http://www.mulesoft.org/schema/mule/core"
+	xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd">
+	<flow name="gittest4Flow" doc:id="09fe2e26-6253-459a-9515-544cfd1cc0a8" >
+		<http:listener doc:name="Test4" doc:id="a393c9b6-321c-47ff-a97f-b9bc46c05b06" config-ref="HTTP_Listener_config" path="/test4"/>
+	</flow>
+</mule>
